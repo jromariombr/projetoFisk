@@ -9,7 +9,7 @@ import { LessonContext } from "../../context/lesson";
 import { TrocaAtividade, Score, ScoreFinal, PointRule } from "../../utils/regras";
 
 import { defaultTheme } from "../../themes/defaultTheme";
-import { Container, Form, Main, Select } from "./styles";/* dawd */
+import { Container, Form, Main, Select } from "./styles";
 
 export const Game19 = () => {
   const {
