@@ -12,9 +12,6 @@ import { WellDone } from "../pages/WellDone";
 import { GameOver } from "../pages/GameOver";
 import { LessonSelection } from "../pages/LessonSelection";
 import { GravaAudioTest } from "../pages/GravaAudioTest";
-import { QRCode } from "../features/qrCode/pages/Home";
-import { QRReader } from "../features/qrCode/pages/QrReader";
-import { GamesTemplate } from "../features/qrCode/games/gamesTemplate";
 import { TaskLesson } from "../components/taskLesson";
 
 import { Game1 } from "../components/game1";
@@ -64,9 +61,6 @@ export const Router =() => {
       <Route path="/GameOver" element={<GameOver />} />
       <Route path="/LessonSelection" element={<LessonSelection />} />
       <Route path="/GravaAudioTest" element={<GravaAudioTest />} />
-      <Route path="/qr-code" element={<QRCode />} />
-      <Route path="/qr-code/reader" element={<QRReader />} />
-      <Route path="/qr-code/:code" element={<GamesTemplate />} />
       <Route path="/Lesson" element={<TaskLesson />} />
 
       <Route path = "/Game1" element={<Game1 />}/>
