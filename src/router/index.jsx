@@ -10,7 +10,6 @@ import { Profile } from "../pages/Profile";
 import { Ranking } from "../pages/Ranking";
 import { WellDone } from "../pages/WellDone";
 import { GameOver } from "../pages/GameOver";
-import { SelectLesson } from "../pages/SelectLesson";
 import { LessonSelection } from "../pages/LessonSelection";
 import { GravaAudioTest } from "../pages/GravaAudioTest";
 import { QRCode } from "../features/qrCode/pages/Home";
@@ -64,7 +63,6 @@ export const Router =() => {
       <Route path="/WellDone" element={<WellDone />} />
       <Route path="/GameOver" element={<GameOver />} />
       <Route path="/LessonSelection" element={<LessonSelection />} />
-      <Route path="/SelectLesson" element={<SelectLesson />} />
       <Route path="/GravaAudioTest" element={<GravaAudioTest />} />
       <Route path="/qr-code" element={<QRCode />} />
       <Route path="/qr-code/reader" element={<QRReader />} />
