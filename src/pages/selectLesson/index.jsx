@@ -43,7 +43,7 @@ export const SelectLesson = () => {
     } finally {
       setIsLoading(false);
     }
-
+/* aquiMudança */
   }
 
   const clickLesson = (id) => {
