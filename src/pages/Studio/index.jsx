@@ -2,8 +2,8 @@ import { useContext } from "react";
 import * as Dialog from "@radix-ui/react-dialog";
 
 import { Modal } from "./components/Modal";
-import { TitleLesson } from "../../components/TitleLesson";
 import { TopMenuHeader } from "../../components/TopMenuHeader";
+import { TitleLesson } from "../../components/TitleLesson";
 
 import { CyberContext } from "../../context/cyber";
 import { translateStudio } from "../../utils/Translate";
